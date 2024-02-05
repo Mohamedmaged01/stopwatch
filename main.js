@@ -32,5 +32,5 @@ function update() {
   let seconds = Math.floor((elapsed / 1000) % 60);
   let milliseconds = Math.floor((elapsed % 1000) / 10);
   display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
-  document.getElementById("display").innerHTML = displayTime;
+  
 }
